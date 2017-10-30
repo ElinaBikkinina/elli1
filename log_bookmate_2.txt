@@ -1,0 +1,64 @@
+10-30 13:13:49.996: V/BoostFramework(17385): BoostFramework() : mPerf = com.qualcomm.qti.Performance@ba3daf2
+10-30 13:13:50.132: W/Binder_5(1912): type=1400 audit(0.0:36369): avc: denied { ioctl } for path="socket:[2059590]" dev="sockfs" ino=2059590 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+10-30 13:13:50.132: W/Binder_5(1912): type=1400 audit(0.0:36370): avc: denied { ioctl } for path="socket:[2059590]" dev="sockfs" ino=2059590 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+10-30 13:13:50.216: I/vk_sdk_auth(17385): Auth ok
+10-30 13:13:50.221: D/WtProcessController(2503): onAMPauseActivity callback
+10-30 13:13:50.237: D/WtProcessController(2503): onAMResumeActivity callback
+10-30 13:13:50.237: I/Timeline(1367): Timeline: App_transition_ready time:50478492
+10-30 13:13:50.237: D/WtProcessController(2503): set foreground process size 1 pid:12358pacakgeName:com.bookmate
+10-30 13:13:50.237: W/WtProcessController(2503): get fore ground process uid = 10160
+10-30 13:13:50.245: D/PhoneStatusBar(1761): disable: 0x00000200 -> 0x00000000 (diff: 0x00000200)
+10-30 13:13:50.245: D/PhoneStatusBar(1761): disable: < expand icons alerts ticker system_info back home recent clock full hide keyguard none float >
+10-30 13:13:50.248: I/Timeline(1367): Timeline: App_transition_ready time:50478503
+10-30 13:13:50.251: W/ResourceType(12358): No package identifier when getting value for resource number 0x00000000
+10-30 13:13:50.269: I/Timeline(1367): Timeline: App_transition_ready time:50478524
+10-30 13:13:50.290: I/Timeline(1367): Timeline: App_transition_ready time:50478545
+10-30 13:13:50.296: D/WtProcessController(2503): onAMPauseActivity callback
+10-30 13:13:50.312: W/Binder_10(2610): type=1400 audit(0.0:36371): avc: denied { ioctl } for path="socket:[1998781]" dev="sockfs" ino=1998781 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+10-30 13:13:50.312: W/Binder_10(2610): type=1400 audit(0.0:36372): avc: denied { ioctl } for path="socket:[1998781]" dev="sockfs" ino=1998781 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+10-30 13:13:50.325: D/WtProcessController(2503): onAMResumeActivity callback
+10-30 13:13:50.331: I/Timeline(1367): Timeline: App_transition_ready time:50478586
+10-30 13:13:50.335: D/PhoneStatusBar(1761): disable: 0x00000000 -> 0x00000200 (diff: 0x00000200)
+10-30 13:13:50.335: D/PhoneStatusBar(1761): disable: < expand icons alerts ticker system_info back home recent clock full hide keyguard none float >
+10-30 13:13:50.338: V/PhoneStatusBarPolicy(1761): updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+10-30 13:13:50.348: W/ResourceType(12358): No package identifier when getting value for resource number 0x00000000
+10-30 13:13:50.352: D/WtProcessController(2503): onAMDestroyActivity callback
+10-30 13:13:50.352: W/ResourceType(12358): No package identifier when getting value for resource number 0x00000000
+10-30 13:13:50.441: E/Twitter(12358): Authorize not in progress
+10-30 13:13:50.446: D/Retrofit(12358): ---> HTTP POST https://api.bookmate.rocks/a/4/auth/external_auth.json
+10-30 13:13:50.548: I/XiaomiFirewall(1841): firewall pkgName:com.bookmate, result:0x0
+10-30 13:13:50.625: I/Timeline(1367): Timeline: Activity_windows_visible id: ActivityRecord{b86c9c4 u0 com.bookmate/.app.login.WelcomeActivity t3246} time:50478880
+10-30 13:13:50.627: I/Timeline(1367): Timeline: App_transition_stopped time:50478881
+10-30 13:13:50.628: D/WtProcessController(2503): onAMDestroyActivity callback
+10-30 13:13:50.628: E/ANDR-PERF-OPTSHANDLER(3897): perf_lock_rel: updated /sys/class/scsi_host/host0/../../../clkscale_enable with 1
+10-30 13:13:50.628: E/ANDR-PERF-OPTSHANDLER(3897):  return value 2
+10-30 13:13:50.637: D/Analytics-Core-Analytics(2944): trackEvent
+10-30 13:13:50.638: D/Analytics-Core-SysUtils(2944): getUserId, uid:1000, userId:0
+10-30 13:13:50.640: I/XiaomiFirewall(1841): firewall pkgName:com.miui.powerkeeper, result:0x0
+10-30 13:13:50.651: D/Analytics-Core-PrefsHelper(2944): putString key:mac value:38:a4:ed:b5:34:ff
+10-30 13:13:50.651: D/Analytics-Core-ServiceHelper(2944): aaid is ac0e41d6-09cf-4f18-9263-81f8895fc827, miui version is V8.1.2.0.MAAMIDI
+10-30 13:13:50.653: D/Analytics-Core-PollingSender(2944): sample rate match.
+10-30 13:13:50.653: D/Analytics-Core-TrackerStore(2944): pushEvent 1 events into db. 
+10-30 13:13:50.653: D/Analytics-Core-InsertEvents(2944): session start 
+10-30 13:13:50.653: D/Analytics-Core-AnalyticsDB(2944): insert events 1
+10-30 13:13:50.661: D/Analytics-Core-InsertEvents(2944): session end. cost time is 8
+10-30 13:13:50.661: D/Analytics-Core-PollingSender(2944): mUploadTask is already running...
+10-30 13:13:51.076: D/ConnectivityService(1367): returning Blocked NetworkInfo for ifname=wlan0, uid=10149
+10-30 13:13:51.087: D/ConnectivityService(1367): returning Blocked NetworkInfo for ifname=wlan0, uid=10149
+10-30 13:13:51.088: D/ConnectivityService(1367): returning Blocked NetworkInfo for ifname=wlan0, uid=10149
+10-30 13:13:51.089: D/ConnectivityService(1367): returning Blocked NetworkInfo for ifname=wlan0, uid=10149
+10-30 13:13:51.090: D/ConnectivityService(1367): returning Blocked NetworkInfo for ifname=wlan0, uid=10149
+10-30 13:13:51.397: W/SystemUI.toogleContainer(1761): view is null:null null null
+10-30 13:13:51.456: D/Retrofit(12358): <--- HTTP 200 https://api.bookmate.rocks/a/4/auth/external_auth.json (1009ms)
+10-30 13:13:51.478: I/Logger(12358): filterUnsuccessfulResult(): 422 - Internal server error: could not get application
+10-30 13:13:51.510: D/amazon_log(12358): Authentication Failed: {"source":"vk","context":"login","reason":"Internal server error: could not get application"}
+10-30 13:13:51.514: I/DefaultDeliveryClient(12358): Event: 'Authe...' recorded to local filestore
+10-30 13:13:51.514: D/DefaultDeliveryClient(12358): Time of enqueueEventForDelivery: 4
+10-30 13:13:51.552: W/Binder_6(1927): type=1400 audit(0.0:36373): avc: denied { ioctl } for path="socket:[2058959]" dev="sockfs" ino=2058959 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+10-30 13:13:51.552: W/Binder_6(1927): type=1400 audit(0.0:36374): avc: denied { ioctl } for path="socket:[2058959]" dev="sockfs" ino=2058959 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+10-30 13:13:51.832: D/amazon_log(12358): Error Shown: {"screen":"login","internal_message":"Internal server error: could not get application","client_message":"Oops, something bad has happened"}
+10-30 13:13:51.836: I/DefaultDeliveryClient(12358): Event: 'Error...' recorded to local filestore
+10-30 13:13:51.836: D/DefaultDeliveryClient(12358): Time of enqueueEventForDelivery: 4
+10-30 13:13:51.846: D/wpa_supplicant(2118): wlan0: Control interface command 'SIGNAL_POLL'
+10-30 13:13:51.932: D/StatusBar.NetworkController(1761): onSignalStrengthsChanged received on slotId :1signalStrength=SignalStrength: 99 0 -120 -160 -120 -1 -1 16 -107 -7 112 2147483647 2147483647 gsm|lte level=4 cdmdlevel=0 evdolevel=0
+10-30 13:13:52.233: I/vk(17385): ==== ENTER BACKGROUND ====
