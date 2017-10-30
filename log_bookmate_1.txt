@@ -1,0 +1,65 @@
+10-30 12:42:35.020: D/amazon_log(12358): Control Pressed: {"screen":"login","control":"vk"}
+10-30 12:42:35.021: D/amazon_log(12358): Authentication Initiated: {"source":"vk","context":"login"}
+10-30 12:42:35.021: I/DefaultDeliveryClient(12358): Event: 'Contr...' recorded to local filestore
+10-30 12:42:35.022: D/DefaultDeliveryClient(12358): Time of enqueueEventForDelivery: 2
+10-30 12:42:35.022: I/Timeline(12358): Timeline: Activity_launch_request time:48603277
+10-30 12:42:35.023: I/DefaultDeliveryClient(12358): Event: 'Authe...' recorded to local filestore
+10-30 12:42:35.023: D/DefaultDeliveryClient(12358): Time of enqueueEventForDelivery: 1
+10-30 12:42:35.027: I/ActivityManager(1367): START u0 {cmp=com.bookmate/com.vk.sdk.VKServiceActivity (has extras)} from uid 10160 on display 0
+10-30 12:42:35.031: D/WtProcessController(2503): onAMCreateActivity callback
+10-30 12:42:35.035: D/WtProcessController(2503): onAMPauseActivity callback
+10-30 12:42:35.042: D/WtProcessController(2503): onAMRestartActivity callback
+10-30 12:42:35.044: I/Timeline(1367): Timeline: App_transition_ready time:48603298
+10-30 12:42:35.076: I/Timeline(12358): Timeline: Activity_launch_request time:48603331
+10-30 12:42:35.079: I/ActivityManager(1367): START u0 {act=com.vkontakte.android.action.SDK_AUTH cmp=com.vkontakte.android/.SDKAuthActivity (has extras)} from uid 10160 on display 0
+10-30 12:42:35.080: I/Timeline(1367): Timeline: App_transition_ready time:48603335
+10-30 12:42:35.081: D/WtProcessController(2503): onAMCreateActivity callback
+10-30 12:42:35.084: D/WtProcessController(2503): onAMPauseActivity callback
+10-30 12:42:35.090: D/ActivityThreadInjector(12358): clearCachedDrawables.
+10-30 12:42:35.100: D/WtProcessController(2503): onAMRestartActivity callback
+10-30 12:42:35.101: D/WtProcessController(2503): set foreground process size 1 pid:15743pacakgeName:com.vkontakte.android
+10-30 12:42:35.101: W/WtProcessController(2503): get fore ground process uid = 10120
+10-30 12:42:35.104: I/Timeline(1367): Timeline: App_transition_ready time:48603358
+10-30 12:42:35.110: D/DnsProxyBlocker(728): remove uid(10037)
+10-30 12:42:35.133: D/ConnectivityService(1367): listenForNetwork for Listen from uid/pid:10120/15743 for NetworkRequest [ id=195, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+10-30 12:42:35.133: D/ConnectivityService(1367): rematching NetworkAgentInfo [WIFI () - 153]
+10-30 12:42:35.133: D/ConnectivityService(1367):  network has: [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps SignalStrength: -58]
+10-30 12:42:35.133: D/ConnectivityService(1367):   checking if request is satisfied: NetworkRequest [ id=194, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+10-30 12:42:35.133: D/ConnectivityService(1367):   checking if request is satisfied: NetworkRequest [ id=191, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+10-30 12:42:35.133: D/ConnectivityService(1367): Network NetworkAgentInfo [WIFI () - 153] was already satisfying request 1. No change.
+10-30 12:42:35.133: D/ConnectivityService(1367):   checking if request is satisfied: NetworkRequest [ id=3, legacyType=-1, [] ]
+10-30 12:42:35.133: D/ConnectivityService(1367):   checking if request is satisfied: NetworkRequest [ id=190, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+10-30 12:42:35.133: D/ConnectivityService(1367):   checking if request is satisfied: NetworkRequest [ id=195, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+10-30 12:42:35.133: D/ConnectivityService(1367):   checking if request is satisfied: NetworkRequest [ id=4, legacyType=-1, [ Transports: WIFI Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+10-30 12:42:35.133: D/ConnectivityService(1367):   checking if request is satisfied: NetworkRequest [ id=5, legacyType=-1, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+10-30 12:42:35.133: D/ConnectivityService(1367):   checking if request is satisfied: NetworkRequest [ id=172, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+10-30 12:42:35.133: D/ConnectivityService(1367):   checking if request is satisfied: NetworkRequest [ id=192, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+10-30 12:42:35.134: D/ConnectivityService(1367):   checking if request is satisfied: NetworkRequest [ id=179, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+10-30 12:42:35.134: D/ConnectivityService(1367): sending notification AVAILABLE for NetworkRequest [ id=195, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+10-30 12:42:35.139: D/EgretLoader(15743): EgretLoader(Context context)
+10-30 12:42:35.139: D/EgretLoader(15743): The context is not activity
+10-30 12:42:35.156: I/vk(15743): ==== LEAVE BACKGROUND ====
+10-30 12:42:35.152: W/Binder_B(2538): type=1400 audit(0.0:36150): avc: denied { ioctl } for path="socket:[2038162]" dev="sockfs" ino=2038162 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+10-30 12:42:35.152: W/Binder_B(2538): type=1400 audit(0.0:36151): avc: denied { ioctl } for path="socket:[2038162]" dev="sockfs" ino=2038162 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+10-30 12:42:35.160: D/ActivityThreadInjector(15743): clearCachedDrawables.
+10-30 12:42:35.164: I/XiaomiFirewall(1841): firewall pkgName:com.vkontakte.android, result:0x0
+10-30 12:42:35.176: D/PhoneStatusBar(1761): disable: 0x00000200 -> 0x00000000 (diff: 0x00000200)
+10-30 12:42:35.177: D/PhoneStatusBar(1761): disable: < expand icons alerts ticker system_info back home recent clock full hide keyguard none float >
+10-30 12:42:35.183: I/Timeline(1367): Timeline: App_transition_ready time:48603438
+10-30 12:42:35.185: I/Timeline(1367): Timeline: App_transition_ready time:48603439
+10-30 12:42:35.223: I/Timeline(1367): Timeline: App_transition_ready time:48603478
+10-30 12:42:35.225: D/PhoneStatusBar(1761): disable: 0x00000000 -> 0x00000200 (diff: 0x00000200)
+10-30 12:42:35.225: D/PhoneStatusBar(1761): disable: < expand icons alerts ticker system_info back home recent clock full hide keyguard none float >
+10-30 12:42:35.227: I/ActivityManager(1367): Displayed com.vkontakte.android/.SDKAuthActivity: +135ms (total +187ms)
+10-30 12:42:35.222: W/Binder_4(1794): type=1400 audit(0.0:36152): avc: denied { ioctl } for path="socket:[2035087]" dev="sockfs" ino=2035087 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+10-30 12:42:35.222: W/Binder_4(1794): type=1400 audit(0.0:36153): avc: denied { ioctl } for path="socket:[2035087]" dev="sockfs" ino=2035087 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+10-30 12:42:35.229: V/PhoneStatusBarPolicy(1761): updateManagedProfile mManagedProfileFocused: false mKeyguardVisible: false mCurrentUserId:0 mCurrentProfileId:0 mSecondSpaceStatusIconVisible: true showIcon:false
+10-30 12:42:35.258: D/OpenGLRenderer(12358): endAllStagingAnimators on 0xdcd1c500 (RippleDrawable) with handle 0xd7370270
+10-30 12:42:35.394: E/ANDR-PERF-OPTSHANDLER(3897): perf_lock_rel: updated /sys/class/scsi_host/host0/../../../clkscale_enable with 1
+10-30 12:42:35.394: E/ANDR-PERF-OPTSHANDLER(3897):  return value 2
+10-30 12:42:35.500: I/Timeline(1367): Timeline: Activity_windows_visible id: ActivityRecord{2c0ea26 u0 com.vkontakte.android/.SDKAuthActivity t3246} time:48603755
+10-30 12:42:35.519: D/Analytics-Core-Analytics(2944): trackEvent
+10-30 12:42:35.520: D/Analytics-Core-SysUtils(2944): getUserId, uid:1000, userId:0
+10-30 12:42:35.527: W/AD-PLUGIN-AppInstallActivateManager(12665): unRegisterSplashPackageUpdatedListener
+10-30 12:42:35.530: I/XiaomiFirewall(1841): firewall pkgName:com.miui.powerkeeper, result:0x0
+10-30 12:42:35.533: I/Timeline(1367): Timeline: App_transition_stopped time:48603788
